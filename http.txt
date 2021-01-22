@@ -1,0 +1,20 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /download/:name           --> smx/api.DownLoadFile (4 handlers)
+[GIN-debug] Listening and serving HTTP on :80
+[GIN] 2021/01/22 - 22:08:07 | 200 |     3.16338ms |       127.0.0.1 | GET      "/download/http.log"
+[GIN] 2021/01/22 - 22:08:10 | 200 |     5.86821ms |       127.0.0.1 | GET      "/download/http.log"
+[GIN] 2021/01/22 - 22:08:12 | 200 |    2.577288ms |       127.0.0.1 | GET      "/download/http.log"
+[GIN] 2021/01/22 - 22:08:12 | 200 |    2.253171ms |       127.0.0.1 | GET      "/download/http.log"
+[GIN] 2021/01/22 - 22:08:12 | 200 |    2.480986ms |       127.0.0.1 | GET      "/download/http.log"
+[GIN] 2021/01/22 - 22:08:13 | 200 |    1.847015ms |       127.0.0.1 | GET      "/download/http.log"
+[GIN] 2021/01/22 - 22:08:13 | 200 |    1.694536ms |       127.0.0.1 | GET      "/download/http.log"
+[GIN] 2021/01/22 - 22:08:13 | 200 |     2.76496ms |       127.0.0.1 | GET      "/download/http.log"
+[GIN] 2021/01/22 - 22:08:13 | 200 |    1.708816ms |       127.0.0.1 | GET      "/download/http.log"
+[GIN] 2021/01/22 - 22:08:13 | 200 |    1.773107ms |       127.0.0.1 | GET      "/download/http.log"
+[GIN] 2021/01/22 - 22:08:13 | 200 |    2.502294ms |       127.0.0.1 | GET      "/download/http.log"
+[GIN] 2021/01/22 - 22:08:14 | 200 |    1.787718ms |       127.0.0.1 | GET      "/download/http.log"
